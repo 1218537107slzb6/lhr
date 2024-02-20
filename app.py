@@ -9,12 +9,11 @@ def index():
 @app.route("/",methods=["GET","POST"])
 def main():
   name=request.from.get("name")
-  return(render_template("main.html",r=name))
+  return(render_template("main.html",r=r))
+
+@app.route("/",methods=["GET","POST"])
+def main():
+  return(render_template("imageGPt.html"))
   
-  
-
-
-
-
 if __name__ == "__main__":
   app.run()
