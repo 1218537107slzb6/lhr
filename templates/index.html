@@ -1,6 +1,18 @@
 
   
-<h1>Hi，{{r}},How can I help you?<h1>
-    <form action="/imageGPT" method="post">
-      <input type = "submit" value="Image Generator" style="width:200px;height:100px;">
-    </form>
+<style>
+  .container{width: 100%;margin: auto;}
+  @media(min-width:600px){.container{width: 80%;}}
+  @media(min-width:768px){.container{width: 60%;}}
+  @media(min-width:1024px){.container{width: 50%;}}
+ </style>
+ 
+<div class="container">
+ <h1>Welcome to Singapore.NTU</h1>
+  <form action = "/main" method ="post">
+    <h2>my name is Li
+    </h2>
+    <input type ="text" name ="r">
+    <input type ="submit" value ="Enter">
+  </form>
+</div>
