@@ -5,7 +5,7 @@ import time
 from openai import OpenAI
 
 #model=OpenAI(api_key="")
-#=os.environ["OPENAI_API_TOKEN"]=""
+#=os.environ["OPENAI_API_TOKEN"]="sess-rMRQ43evufJkdDsui8CZc6PMsEJG773duIxL5Pkb"
 #os.environ["REPLICATE_API_TOKEN"]="r8_2idkAutIh1jCAVVRIbEDgqt9zNUdbhG2cS1AF"(不能上云）
 model=OpenAI(api_key=openai_api_key)
 app = Flask(__name__)
