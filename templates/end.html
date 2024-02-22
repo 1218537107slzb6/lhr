@@ -1,10 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <style>
-    .container{width:100%;margin:auto}
-    @media (min-width:600px) {.container{width: 80%;}}
-    @media (min-width:768px) {.container{width: 60%;}}
-    @media (min-width:1024px) {.container{width: 50%;}}
+    .big {
+        width: 500px;
+        height: 500px;
+        border: 1px dashed black;
+        position: relative;
+        overflow: hidden;
+        background: white;
+    }
+    
+    .small {
+        width: 300px;
+        height: 300px;
+        border: 1px dashed white;
+        position: absolute;
+        margin-top: 4px;
+        margin-left: 4px;
+        background: rgb(148, 24, 24);
+        overflow: hidden;
+    }
+    
+    .small1 {
+        width: 450px;
+        height: 450px;
+        border: 2px solid black;
+        position: absolute;
+        margin-top: 22px;
+        margin-left: 22px;
+        overflow: hidden;
+        background: white;
+    }
+    
+    .small2 {
+        width: 310px;
+        height: 310px;
+        border: 1px dashed white;
+        position: absolute;
+        margin-top: 47px;
+        margin-left: 47px;
+        background: rgb(161, 11, 11);
+        overflow: hidden;
+    }
+    
+    .box2 {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 25px;
+        background: rgb(161, 11, 11);
+    }
+    
+    .box3 {
+        width: 150px;
+        height: 150px;
+        border: 5px solid black;
+        position: absolute;
+        margin-top: 72px;
+        margin-left: 72px;
+        background: white;
+    }
 </style>
-
-<div class="container">
-<h1>Thank you for visiting us. Good bye</h1>
-</div>
+ 
+<body>
+    <div class="big">
+        <div class="small1">
+            <div class="box2">
+                <div class="small2">
+                    <div class="small">
+                        <div class="box3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+ 
+</html>
